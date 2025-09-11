@@ -1,5 +1,5 @@
 mkdir -p "$HOME/bin" "$HOME/cegep" "$HOME/projets"
-sudo pacman -S --noconfirm git vim gcc gdb python python-pip
+sudo pacman -S --noconfirm git vim gcc gdb python python-pip code
 
 cat > "$HOME/.gitconfig"  << 'EOF'
 [user]
